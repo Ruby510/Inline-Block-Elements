@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 10px;
+}
+
+.box{
+  width: 48%;
+  height: 300px;
+  display: inline-block;
+}
+
+.box h1{
+  text-align: center;
+  font-family:"Protest Guerrilla", sans-serif;
+}
+
+.tuffy-img{
+  height: 100%;
+  background-image: url('csuf.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5px;
+  border:2px solid black;
+  border-radius: 5px;
+}
+
+.csu-histoy{
+  padding: 10px;
+  font-family:'Montserrat',sans-serif;
+  font-weight: 600;
+  line-height: 2rem;
+  
+}
